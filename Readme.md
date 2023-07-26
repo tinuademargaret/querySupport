@@ -32,7 +32,7 @@ Based on existing literature, the following categories of prompts were explored 
 Each prompt type was evaluated with results subsequently discussed in the results section.
 
 ### Demonstration selection
-The examples utilized within prompts during inference were selected based on their similarity to the test set (also known as in-context selection). This strategy generally enhances the performance of LLMs.
+The examples utilized within prompts during inference were selected based on their similarity to the test set (also known as KNN selection). This strategy generally enhances the performance of LLMs.
 
 ### Voting
 The final result is the most frequent answer after 3 runs, to take advantage of the diverse sampling strategies
